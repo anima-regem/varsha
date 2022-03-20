@@ -1,7 +1,7 @@
 // Installing service worker
 const CACHE_NAME = 'varsha';
 
-let resourcesToCache = ["./", "./index.html", "/service-worker.js", "./images/logo.jpg", "logo.png", "./images/bg.jpg", "./images/icon.ico", "./manifest.json", "./style.css"];
+let resourcesToCache = ["./", "./index.html", "/service-worker.js", "./images/logo.jpg", "./images/logo.png", "./images/bg.jpg", "./images/icon.ico", "./manifest.json", "./style.css"];
 // "./fonts/Quicksand-Bold.ttf", "./fonts/Quicksand-Light.ttf", "./fonts/Quicksand-Regular.ttf",
 self.addEventListener("install", e => {
     e.waitUntil(
