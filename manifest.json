@@ -1,0 +1,16 @@
+{
+    "name": "Varsha",
+    "short_name": "Varsha",
+    "start_url": "/",
+    "background_color": "#FFDCB5",
+    "theme_color": "#1E003D",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "sizes": "320x320",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "orientation":"portrait"
+}
